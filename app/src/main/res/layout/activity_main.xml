@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
 
     <LinearLayout
@@ -54,6 +54,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/button_put1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_delete1"
@@ -64,6 +65,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="PUT" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_put1"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/button_image_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image List" />
 
     </LinearLayout>
 
